@@ -1,23 +1,6 @@
 # SpikeSTAG
-```markdown
-To install SpikeSTAG in a new conda environment:
 
-```bash
-conda create -n SeqSNN python=3.9  
-conda activate SpikeSTAG  
-git clone https://github.com/microsoft/SeqSNN/
-cd SpikeSTAG 
-pip install .  
-```
-
-# Training
-
-```bash
-python -m SeqSNN.entry.tsforecast exp/forecast/spikegnn/spikegnn_metr-la.yml  
-```
-
-You can change the `yml` configuration files as you want.
----
+The code will be open-sourced shortly.
 
 # Datasets
 
@@ -47,7 +30,3 @@ SeqSNN
 You can change the path of the data file in `exp/forecast/dataset/XXX.yml` configuration files.
 
 ---
-
-# Acknowledgement
-
-```
