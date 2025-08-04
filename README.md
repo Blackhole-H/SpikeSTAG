@@ -1,10 +1,10 @@
 # SpikeSTAG
 ```markdown
-To install SeqSNN in a new conda environment:
+To install SpikeSTAG in a new conda environment:
 
 ```bash
-conda create -n SeqSNN python=[3.8, 3.9, 3.10]  
-conda activate SeqSNN  
+conda create -n SeqSNN python=3.9  
+conda activate SpikeSTAG  
 git clone https://github.com/microsoft/SeqSNN/  
 cd SeqSNN  
 pip install .  
