@@ -5,29 +5,18 @@ To install SpikeSTAG in a new conda environment:
 ```bash
 conda create -n SeqSNN python=3.9  
 conda activate SpikeSTAG  
-git clone https://github.com/microsoft/SeqSNN/  
-cd SeqSNN  
+git clone https://github.com/microsoft/SeqSNN/
+cd SpikeSTAG 
 pip install .  
-```
-
-If you would like to make changes and run your experiments, use:
-
-```bash
-pip install -e .
 ```
 
 # Training
 
-Take the `ispikformer` model as an example:
-
 ```bash
-python -m SeqSNN.entry.tsforecast exp/forecast/ispikformer/ispikformer_electricity.yml  
+python -m SeqSNN.entry.tsforecast exp/forecast/spikegnn/spikegnn_metr-la.yml  
 ```
 
 You can change the `yml` configuration files as you want.
-
-You can add, remove, or modify your model architecture in `SeqSNN/network/XXX.py`.
-
 ---
 
 # Datasets
@@ -61,5 +50,4 @@ You can change the path of the data file in `exp/forecast/dataset/XXX.yml` confi
 
 # Acknowledgement
 
-This repo is built upon [forecaster](https://github.com/Arthur-Null/SRD), which is a general time-series forecasting library. We greatly thank @rk2900 and @Arthur-Null for their initial contribution.
 ```
