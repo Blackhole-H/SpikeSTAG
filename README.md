@@ -1,7 +1,5 @@
 # SpikeSTAG
 ```markdown
-# Installation
-
 To install SeqSNN in a new conda environment:
 
 ```bash
